@@ -24,6 +24,7 @@ const Hero = () => {
               </div>
               <p className="mb-4 w-full text-center items-center md:text-left text-white pt-4 text:sm md:text-md font-medium-bold text-large font-medium py-0 px-0">Am a freelancer web developer with a passion for cybersecurity and AI chatbot Development.</p>
           </div>
+          <div className="text-center md:block hidden"><button className="text-white text-l font-bold bg-slate-400 py-2 px-3 rounded">Email Me</button></div>
         </div>
         <div className="w-full md:w-1/2 h-full">
         <img className="w-full h-80%  py-12 object-cover object-center rounded-md"  src={own}/>
