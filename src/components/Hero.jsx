@@ -3,11 +3,11 @@ import React from 'react'
 const Hero = () => {
   return (
     <section className="h-screen w-full" style={{ backgroundColor: '#5b80d7'}} id="home">
-      <div>
-        <div>
-            <p>I'm Chola Kuboko</p>
+      <div className="px-6">
+        <div className="justify-center items-center w-1/2">
+            <p className="pt-10 items-center">I'm Chola Kuboko</p>
         </div>
-        <div></div>
+        <div className="justify-center items-center w-1/2"></div>
       </div>
     </section>
   )
