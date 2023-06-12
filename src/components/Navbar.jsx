@@ -9,7 +9,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="w-full flex justify-between md:px-8 px-6 text-white md:py-6 py-4" style={{ backgroundColor: '#133973' }}>
+    <div className="w-full flex justify-between md:px-8 px-6 text-white md:py-8 py-6" style={{ backgroundColor: '#133973' }}>
       <div>
         <a href=''>DiCE</a>
       </div>
@@ -27,11 +27,15 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="flex gap-2">
-        <button className="md:block hidden pr-10">Hire Me</button>
-        <button onClick={handleNav} className="md:hidden block"><FaBars /></button>
+        <button className="md:block hidden">Hire Me</button>
+        {open?
+            <button onClick={handleNav} className='block md:hidden font-extrabold items-center justify-center'>X</button>
+        :
+            <button onClick={handleNav} className="md:hidden block"><FaBars /></button>
+        }
         {open ? (
           <div className="md:hidden block">
-            <ul className="md:hidden flex flex-col justify-center gap-8">
+            <ul className="md:hidden absolute h-screen space-y-3 bg-white shadow-md p-5 top-16 text-black flex-col justify-center gap-8 right-0">
               <li>
                 <a href=''>Home</a>
               </li>
