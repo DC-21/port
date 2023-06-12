@@ -14,7 +14,7 @@ const Navbar = () => {
         <a href=''>DiCE</a>
       </div>
       <div className="">
-        <ul className="justify-center gap-8 md:hidden block">
+        <ul className="justify-center gap-8 md:flex hidden">
           <li>
             <a href=''>Home</a>
           </li>
@@ -27,11 +27,11 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="flex gap-2">
-        <button className="md:block hidden">Hire Me</button>
+        <button className="md:block hidden pr-10">Hire Me</button>
         <button onClick={handleNav} className="md:hidden block"><FaBars /></button>
         {open ? (
-          <div className="md:block hidden">
-            <ul className="flex justify-center gap-8">
+          <div className="md:hidden block">
+            <ul className="md:hidden flex flex-col justify-center gap-8">
               <li>
                 <a href=''>Home</a>
               </li>
