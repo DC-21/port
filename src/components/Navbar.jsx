@@ -30,6 +30,13 @@ const Navbar = () => {
     }
   };
 
+  const handleHire = () => {
+    const hire = document.getElementById(hire);
+    if(hire) {
+        hire.scrollIntoView({ behavior: 'smooth'});
+    }
+  };
+
   return (
     <div className="w-full flex justify-between md:px-8 px-6 text-white md:py-5 py-5" style={{ backgroundColor: '#133973' }}>
       <div>
