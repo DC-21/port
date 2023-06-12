@@ -13,6 +13,7 @@ const Navbar = () => {
     const home = document.getElementById('home');
     if(home) {
         home.scrollIntoView({ behavior: 'smooth'});
+        setOpen(!open)
     }
   };
 
@@ -20,6 +21,7 @@ const Navbar = () => {
     const Services = document.getElementById('services');
     if(services) {
         services.scrollIntoView({ behavior: 'smooth'});
+        setOpen(!open)
     }
   };
 
@@ -27,6 +29,7 @@ const Navbar = () => {
     const portfolio  = document.getElementById(services);
     if(portfolio) {
         portfolio.scrollIntoView({ behavior: 'smooth'});
+        setOpen(!open)
     }
   };
 
@@ -45,13 +48,13 @@ const Navbar = () => {
       <div className="">
         <ul className="justify-center gap-8 md:flex hidden">
           <li className="hover:bg-blue-300 duration-500 rounded-md py-2 px-3">
-            <a href=''>Home</a>
+            <a onClick={handleHome} href=''>Home</a>
           </li>
           <li className="hover:bg-blue-300 duration-500 rounded-md py-2 px-3">
-            <a href=''>Services</a>
+            <a onClick={handleServices} href=''>Services</a>
           </li>
           <li className="hover:bg-blue-300 duration-500 rounded-md py-2 px-3">
-            <a href=''>Portfolio</a>
+            <a onClick={handlePortfolio} href=''>Portfolio</a>
           </li>
         </ul>
       </div>
