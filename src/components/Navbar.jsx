@@ -43,7 +43,7 @@ const Navbar = () => {
   return (
     <div className="w-full flex justify-between md:px-8 px-6 text-white md:py-5 py-5" style={{ backgroundColor: '#133973' }}>
       <div>
-        <a href=''>DiCE</a>
+        <a className="text-bold" href=''>DiCE</a>
       </div>
       <div className="">
         <ul className="justify-center gap-8 md:flex hidden">

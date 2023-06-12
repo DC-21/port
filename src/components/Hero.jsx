@@ -24,8 +24,8 @@ const Hero = () => {
               </div>
           </div>
         </div>
-        <div className="justify-center items-center w-1/2">
-        <img className="w-full h-85  py-12 object-cover items-center object-center rounded-md"  src={girl}/>
+        <div className="w-full md:w-1/2 h-full">
+        <img className="w-full h-85  py-12 object-cover object-center rounded-md"  src={girl}/>
         </div>
       </div>
     </section>
