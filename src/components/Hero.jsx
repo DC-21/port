@@ -16,7 +16,7 @@ const Hero = () => {
                 'AI Chatbot Developer', 2000,
                 'Web Penetration Tester', 2000
                    ]}
-                className="text-white small-text"
+                className="text-white text-2xl font-bold"
                 repeat={Infinity}
                 wrapper="span"
                />
