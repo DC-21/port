@@ -9,8 +9,29 @@ const Navbar = () => {
     setOpen((prevOpen) => !prevOpen);
   }
 
+  const handleHome = () => {
+    const home = document.getElementById('home');
+    if(home) {
+        home.scrollIntoView({ behavior: 'smooth'});
+    }
+  };
+
+  const handleServices = () => {
+    const Services = document.getElementById('services');
+    if(services) {
+        services.scrollIntoView({ behavior: 'smooth'});
+    }
+  };
+
+  const handlePortfolio = () => {
+    const portfolio  = document.getElementById(services);
+    if(portfolio) {
+        portfolio.scrollIntoView({ behavior: 'smooth'});
+    }
+  };
+
   return (
-    <div className="w-full flex justify-between md:px-8 px-6 text-white md:py-8 py-6" style={{ backgroundColor: '#133973' }}>
+    <div className="w-full flex justify-between md:px-8 px-6 text-white md:py-5 py-5" style={{ backgroundColor: '#133973' }}>
       <div>
         <a href=''>DiCE</a>
       </div>
@@ -28,7 +49,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="flex gap-2">
-        <button className="md:block hidden">Hire Me</button>
+        <button className="md:block hidden hover:bg-blue-300 duration-500 rounded-md py-2 px-3">Hire Me</button>
         {open?
             <button onClick={handleNav} className='block md:hidden font-extrabold items-center justify-center'><CgCloseR/></button>
         :
