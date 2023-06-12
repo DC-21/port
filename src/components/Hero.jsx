@@ -5,11 +5,12 @@ import girl from '../images/girl.png'
 
 const Hero = () => {
   return (
-    <section className="h-screen w-full" style={{ background: 'linear-gradient(to right, #5b80d7, #2d177d)' }}  id="home">
-      <div className="px-6 flex w-full justify-between">
-        <div className="justify-center items-center w-1/2">
-            <p className="pt-10 items-center">I'm Chola Kuboko</p>
-            <div>
+    <section className="h-screen w-full sticky" style={{ background: 'linear-gradient(to right, #5b80d7, #2d177d)' }}  id="home">
+      <div className="px-6 flex md:flex-row flex-col w-full md:justify-between justify-center">
+        <div className="justify-center items-center md:w-1/2 ">
+          <div>
+          <p className="pt-10 text-lg font-bold text-center">I'm Chola Kuboko</p>
+            <div className="text-center">
              <TypeAnimation
                sequence={[
                 'Web Developer', 2000,
@@ -21,9 +22,10 @@ const Hero = () => {
                 wrapper="span"
                />
               </div>
+          </div>
         </div>
         <div className="justify-center items-center w-1/2">
-        <img className="w-full h-full  pt-8 object-cover object-center rounded-md"  src={girl}/>
+        <img className="w-full h-85  py-12 object-cover items-center object-center rounded-md"  src={girl}/>
         </div>
       </div>
     </section>
