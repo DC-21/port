@@ -16,13 +16,13 @@ const Navbar = () => {
       </div>
       <div className="">
         <ul className="justify-center gap-8 md:flex hidden">
-          <li>
+          <li className="hover:bg-blue-300 duration-500 rounded-md py-2 px-3">
             <a href=''>Home</a>
           </li>
-          <li>
+          <li className="hover:bg-blue-300 duration-500 rounded-md py-2 px-3">
             <a href=''>Services</a>
           </li>
-          <li>
+          <li className="hover:bg-blue-300 duration-500 rounded-md py-2 px-3">
             <a href=''>Portfolio</a>
           </li>
         </ul>
