@@ -23,8 +23,7 @@ const Hero = () => {
               </div>
         </div>
         <div className="justify-center items-center w-1/2">
-        <p className="pt-10 items-center">I'm Chola Kuboko</p>
-        <img src={{girl}}/>
+        <img className="w-full h-full  pt-8 object-cover object-center rounded-md"  src={girl}/>
         </div>
       </div>
     </section>
