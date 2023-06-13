@@ -44,7 +44,7 @@ const Services = () => {
             autoplay
             loop
             src="https://assets6.lottiefiles.com/packages/lf20_8q9oPD.json"
-            style={{ maxWidth: '600px', width: '100%', height: 'auto' }}
+            style={{ maxWidth: '600px', width: '50%', height: '50%' }}
             className="z-10 hover:-translate-y-4 transition-all ease-in-out duration-300 cursor-pointer"
           />
          </div>
