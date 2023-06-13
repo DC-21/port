@@ -41,7 +41,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full sticky flex justify-between md:px-8 px-6 text-white md:py-5 py-5" style={{ backgroundColor: '#133973' }}>
+    <div className="w-full sticky flex justify-between md:px-8 px-6 text-white md:py-5 py-5" style={{ background: 'linear-gradient(to right, #5b80d7, #2d177d)' }}>
       <div>
         <a className="text-bold" href=''>DiCE</a>
       </div>
