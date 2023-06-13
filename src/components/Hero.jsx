@@ -24,8 +24,12 @@ const Hero = () => {
                />
               </div>
               <p className="mb-4 ml-4 w-full text-center items-center md:text-left pt-4 text:sm md:text-md text-large font-lg py-0 px-0" style={{ color: 'linear-gradient(to right, #fafafa, #2d177d)' }}>Am a freelancer web developer with a passion for cybersecurity and AI chatbot Development.</p>
-          </div>
-          <div className="text-center md:block hidden items-center"><button className="text-white text-l font-bold py-2 px-3 rounded hover:bg-blue-300" style={{ backgroundColor: '#2d177d' }}>Email Me</button></div>
+            </div>
+            <div className="text-center md:block items-center">
+              <button className="hover:bg-blue-300 text-white text-lg font-bold py-2 px-3 rounded" style={{ backgroundColor: '#2d177d' }}>
+                   Email Me
+              </button>
+            </div>
         </div>
         <div className="w-full justify-center md:w-1/2 h-full md:pt-0 pt-4">
         
