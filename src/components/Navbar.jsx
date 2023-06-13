@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   const handleServices = () => {
-    const Services = document.getElementById('services');
+    const services = document.getElementById('services');
     if(services) {
         services.scrollIntoView({ behavior: 'smooth'});
         setOpen(!open)
