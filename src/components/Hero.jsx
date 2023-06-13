@@ -14,9 +14,9 @@ const Hero = () => {
             <div className="text-center md:pt-4 pt-2">
              <TypeAnimation
                sequence={[
-                'Web Developer', 2000,
-                'AI Chatbot Developer', 2000,
-                'Web Penetration Tester', 2000
+                'A Junior Web Developer', 2000,
+                'An AI Chatbot Developer', 2000,
+                'A Web Penetration Tester', 2000
                    ]}
                 className="text-white text-2xl font-bold"
                 repeat={Infinity}
