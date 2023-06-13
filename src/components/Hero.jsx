@@ -1,11 +1,12 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
+import { Player } from '@lottiefiles/react-lottie-player';
 import own from '../images/own.png'
 
 
 const Hero = () => {
   return (
-    <section className="min-h-screen w-full sticky" style={{ background: 'linear-gradient(to right, #5b80d7, #2d177d)' }}  id="home">
+    <section className="h-screen w-full sticky" style={{ background: 'linear-gradient(to right, #5b80d7, #2d177d)' }}  id="home">
       <div className="px-6 flex md:flex-row flex-col w-full md:justify-between justify-center">
         <div className="justify-center items-center md:w-1/2 ">
           <div className="md:pt-40 pt-1">
@@ -27,7 +28,7 @@ const Hero = () => {
           <div className="text-center md:block hidden"><button className="text-white text-l font-bold bg-blue-400 py-2 px-3 rounded hover:bg-blue-300">Email Me</button></div>
         </div>
         <div className="w-full md:w-1/2 h-full">
-        <img className="w-[50%] h-[80%]  py-12 object-cover object-center rounded-md"  src={own}/>
+        <img className="w-[70%] h-[80%] py-12 object-cover object-center rounded-md"  src={own}/>
         </div>
       </div>
     </section>
