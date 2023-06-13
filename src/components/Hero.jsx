@@ -8,7 +8,7 @@ const Hero = () => {
     <section className="h-screen w-full" style={{ background: 'linear-gradient(to right, #fafafa, #2d177d)' }}  id="home">
       <div className="px-6 flex md:flex-row flex-col w-full md:justify-between justify-center">
         <div className="justify-center items-center md:w-1/2 ">
-          <div className="md:pt-40 pt-1">
+          <div className="md:pt-20 pt-1">
           <p className="md:pt-10 pt-4 text-3xl font-bold text-center underline" style={{ color: 'linear-gradient(to right, #fafafa, #2d177d)' }}>I'm Chola Kuboko</p>
             <div className="text-center md:pt-4 pt-2">
              <TypeAnimation
