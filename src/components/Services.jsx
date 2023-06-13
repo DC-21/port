@@ -17,11 +17,11 @@ const Services = () => {
             loop
             src="https://assets1.lottiefiles.com/packages/lf20_w51pcehl.json"
             style={{ maxWidth: '600px', width: '50%', height: '50%' }}
-            className="z-10 hover:-translate-y-4 transition-all object-center ease-in-out duration-300 cursor-pointer text-center"
+            className="z-10 hover:-translate-y-4 transition-all object-center justify-center ease-in-out duration-300 cursor-pointer text-center"
           />
          </div>
           </div>
-          <div className="w-full flex">
+          <div className="w-full fmd:flex md:flex-row h-60 flex-col items-center text-center ">
           <div className="w-1/2 h-1/3 text-center">
          <p>Junior Web Developer</p>
          </div>
@@ -35,7 +35,7 @@ const Services = () => {
           />
          </div>
          </div>
-         <div className="w-full flex">
+         <div className="w-full md:flex md:flex-row flex-col items-center text-center h-60">
           <div className="w-1/2 h-1/3 text-center">
          <p>Junior Web Developer</p>
          </div>
@@ -50,9 +50,6 @@ const Services = () => {
          </div>
          </div>
         </div>
-        </div>
-        <div>
-          <div></div>
         </div>
       </div>
     </section>
