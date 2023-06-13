@@ -31,7 +31,7 @@ const Hero = () => {
         <Player
             autoplay
             loop
-            src="src=https://lottiefiles.com/143853-mobile-ui"
+            src="https://assets5.lottiefiles.com/packages/lf20_u5QQuTNSmu.json"
             style={{ maxWidth: '600px', width: '100%', height: 'auto' }}
             className="z-10 hover:-translate-y-4 transition-all ease-in-out duration-300 cursor-pointer"
           />
