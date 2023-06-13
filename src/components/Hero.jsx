@@ -31,8 +31,8 @@ const Hero = () => {
               </button>
             </div>
         </div>
-        <div className="w-full justify-center md:w-1/2 h-full md:pt-0 pt-4">
-          <img src={own} />
+        <div className="w-full mt-10 object-center justify-center md:w-1/2 h-full md:pt-0 pt-4">
+          <img src={own} className="object-center object-cover w-80 h-auto" />
         </div>
       </div>
     </section>
