@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="px-6 flex md:flex-row flex-col w-full md:justify-between justify-center">
         <div className="justify-center items-center md:w-1/2 ">
           <div className="md:pt-40 pt-1">
-          <p className="md:pt-10 pt-4 text-lg font-bold text-center text-indigo-100">I'm Chola Kuboko</p>
+          <p className="md:pt-10 pt-4 text-lg font-bold text-center text-indigo-100 underline">I'm Chola Kuboko</p>
             <div className="text-center md:pt-4 pt-2">
              <TypeAnimation
                sequence={[
