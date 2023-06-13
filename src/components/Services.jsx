@@ -3,7 +3,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
 
 const Services = () => {
   return (
-    <section className="h-screen w-full" id="services">
+    <section className="min-h-screen w-full" id="services">
       <div className="flex flex-col w-full">
         <div className="flex flex-col                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ">
         <div className="w-full justify-between">
