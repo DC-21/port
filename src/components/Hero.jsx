@@ -32,7 +32,7 @@ const Hero = () => {
             </div>
         </div>
         <div className="w-full justify-center md:w-1/2 h-full md:pt-0 pt-4">
-        
+          <img src={own} />
         </div>
       </div>
     </section>
