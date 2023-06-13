@@ -1,6 +1,5 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
-import { Player } from '@lottiefiles/react-lottie-player';
 import own from '../images/own.png'
 
 
@@ -18,16 +17,16 @@ const Hero = () => {
                 'An AI Chatbot Developer', 2000,
                 'A Web Penetration Tester', 2000
                    ]}
-                className="text-white text-2xl font-bold"
+                className="text-white text-2xl font-bold " 
                 repeat={Infinity}
                 wrapper="span"
                />
               </div>
               <p className="mb-4 w-full text-center items-center md:text-left text-white pt-4 text:sm md:text-md font-medium-bold text-large font-medium py-0 px-0">Am a freelancer web developer with a passion for cybersecurity and AI chatbot Development.</p>
           </div>
-          <div className="text-center "><button className="text-white text-l font-bold bg-blue-400 py-2 px-3 rounded hover:bg-blue-300">Email Me</button></div>
+          <div className="text-center md:block hidden items-center"><button className="text-white text-l font-bold bg-blue-400 py-2 px-3 rounded hover:bg-blue-300">Email Me</button></div>
         </div>
-        <div className="w-full md:w-1/2 h-full">
+        <div className="w-full justify-center md:w-1/2 h-full md:pt-0 pt-4">
         
         </div>
       </div>

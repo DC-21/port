@@ -58,3 +58,30 @@
     </div>
   </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img src={own}/>
+        <button className="text-white text-center md:hidden block text-l font-bold bg-blue-400 py-2 px-3 rounded hover:bg-blue-300">Email Me</button>
