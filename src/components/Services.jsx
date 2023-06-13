@@ -4,10 +4,10 @@ import { Player } from '@lottiefiles/react-lottie-player';
 const Services = () => {
   return (
     <section className="min-h-screen w-full" id="services">
-      <div className="flex flex-col w-full">
+      <div className="flex w-full">
         <div className="flex flex-col                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ">
         <div className="w-full justify-between">
-          <div className="md:flex md:flex-row flex-col items-center text-center justify-between w-full" style={{ backgroundColor: '#fafafa'}}>
+          <div className="md:flex md:flex-row flex-col h-70 items-center text-center justify-between w-full" style={{ backgroundColor: '#fafafa'}}>
           <div className="w-1/2 text-center">
           <p>Junior Web Developer</p>
          </div>
@@ -21,9 +21,9 @@ const Services = () => {
           />
          </div>
           </div>
-          <div className="w-full fmd:flex md:flex-row h-60 flex-col items-center text-center ">
+          <div className="w-full fmd:flex md:flex-row h-60 flex-col items-center text-center " style={{ backgroundColor: '#fafafa'}}>
           <div className="w-1/2 h-1/3 text-center">
-         <p>Junior Web Developer</p>
+         <p>Junior Cyber Analyst</p>
          </div>
          <div className="w-1/2">
          <Player
@@ -35,9 +35,9 @@ const Services = () => {
           />
          </div>
          </div>
-         <div className="w-full md:flex md:flex-row flex-col items-center text-center h-60">
+         <div className="w-full md:flex md:flex-row flex-col items-center text-center h-60" style={{ backgroundColor: '#fafafa'}}>
           <div className="w-1/2 h-1/3 text-center">
-         <p>Junior Web Developer</p>
+         <p>Junior Chatbot Developer</p>
          </div>
          <div className="w-1/2">
          <Player
