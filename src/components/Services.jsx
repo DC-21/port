@@ -5,6 +5,7 @@ const Services = () => {
   return (
     <section className="min-h-screen  w-full" style={{ backgroundColor: '#fafafa'}} id="services">
       <div>
+        <p className="text-center md:3xl xl">Services</p>
         <div className="flex flex-col h-full w-full pt-8">
           <div className="md:flex md:flex-row flex-col h-100% items-center justify-between w-full">
           <div className="text-center align-middle">
