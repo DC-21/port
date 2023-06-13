@@ -28,13 +28,7 @@ const Hero = () => {
           <div className="text-center md:block hidden"><button className="text-white text-l font-bold bg-blue-400 py-2 px-3 rounded hover:bg-blue-300">Email Me</button></div>
         </div>
         <div className="w-full md:w-1/2 h-full">
-        <Player
-            autoplay
-            loop
-            src="https://assets5.lottiefiles.com/packages/lf20_u5QQuTNSmu.json"
-            style={{ maxWidth: '600px', width: '100%', height: 'auto' }}
-            className="z-10 hover:-translate-y-4 transition-all ease-in-out duration-300 cursor-pointer"
-          />
+        
         </div>
       </div>
     </section>
