@@ -5,7 +5,7 @@ import own from '../images/own.png'
 
 const Hero = () => {
   return (
-    <section className="h-screen w-full sticky" style={{ background: 'linear-gradient(to right, #5b80d7, #2d177d)' }}  id="home">
+    <section className="h-screen w-full" style={{ background: 'linear-gradient(to right, #5b80d7, #2d177d)' }}  id="home">
       <div className="px-6 flex md:flex-row flex-col w-full md:justify-between justify-center">
         <div className="justify-center items-center md:w-1/2 ">
           <div className="md:pt-40 pt-1">
