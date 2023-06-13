@@ -47,19 +47,19 @@ const Navbar = () => {
       </div>
       <div className="">
         <ul className="justify-center gap-8 md:flex hidden">
-          <li className="hover:bg-purple-900 duration-500 text-white rounded-md py-2 px-3">
+          <li className="hover:bg-purple-900 font-bold duration-500 text-white rounded-md py-2 px-3">
             <a onClick={handleHome} href=''>Home</a>
           </li>
-          <li className="hover:bg-purple-900 duration-500 text-white rounded-md py-2 px-3">
+          <li className="hover:bg-purple-900 font-bold duration-500 text-white rounded-md py-2 px-3">
             <a onClick={handleServices} href=''>Services</a>
           </li>
-          <li className="hover:bg-purple-900 duration-500 text-white rounded-md py-2 px-3">
+          <li className="hover:bg-purple-900 font-bold duration-500 text-white rounded-md py-2 px-3">
             <a onClick={handlePortfolio} href=''>Portfolio</a>
           </li>
         </ul>
       </div>
       <div className="flex gap-2">
-        <button className="md:block hidden hover:bg-purple-600 duration-500 rounded-md py-2 px-3">Hire Me</button>
+        <button className="md:block hidden hover:bg-purple-600 font-bold duration-500 rounded-md py-2 px-3">Hire Me</button>
         {open?
             <button onClick={handleNav} className='block md:hidden font-extrabold items-center justify-center'><CgCloseR/></button>
         :
