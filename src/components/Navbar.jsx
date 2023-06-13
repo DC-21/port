@@ -43,17 +43,17 @@ const Navbar = () => {
   return (
     <div className="w-full sticky flex justify-between md:px-8 px-6 text-white md:py-5 py-5" style={{ background: 'linear-gradient(to right, #fafafa, #2d177d)' }}>
       <div>
-        <a className="font-bold text-blue-800" href=''>DiCE</a>
+        <a className="font-bold text-purple-900" href=''>DiCE</a>
       </div>
       <div className="">
         <ul className="justify-center gap-8 md:flex hidden">
-          <li className="hover:bg-purple-900 duration-500 rounded-md py-2 px-3">
+          <li className="hover:bg-purple-900 duration-500 text-white rounded-md py-2 px-3">
             <a onClick={handleHome} href=''>Home</a>
           </li>
-          <li className="hover:bg-purple-900 duration-500 rounded-md py-2 px-3">
+          <li className="hover:bg-purple-900 duration-500 text-white rounded-md py-2 px-3">
             <a onClick={handleServices} href=''>Services</a>
           </li>
-          <li className="hover:bg-purple-900 duration-500 rounded-md py-2 px-3">
+          <li className="hover:bg-purple-900 duration-500 text-white rounded-md py-2 px-3">
             <a onClick={handlePortfolio} href=''>Portfolio</a>
           </li>
         </ul>
