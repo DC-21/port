@@ -5,9 +5,7 @@ const Services = () => {
   return (
     <section className="min-h-screen w-full" id="services">
       <div className="flex w-full">
-        <div className="flex flex-col                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ">
-        <div className="w-full justify-between">
-          <div className="md:flex md:flex-row flex-col h-70 items-center text-center justify-between w-full" style={{ backgroundColor: '#fafafa'}}>
+          <div className="md:flex md:flex-row flex-col h-70 items-center justify-between w-full" style={{ backgroundColor: '#354646'}}>
           <div className="w-1/2 text-center">
           <p>Junior Web Developer</p>
          </div>
@@ -21,11 +19,11 @@ const Services = () => {
           />
          </div>
           </div>
-          <div className="w-full fmd:flex md:flex-row h-60 flex-col items-center text-center " style={{ backgroundColor: '#fafafa'}}>
-          <div className="w-1/2 h-1/3 text-center">
+          <div className="w-full md:flex md:flex-row flex-col h-60 items-center text-center " style={{ backgroundColor: '#fafafa'}}>
+          <div className="w-1/2 text-center">
          <p>Junior Cyber Analyst</p>
          </div>
-         <div className="w-1/2">
+         <div className="w-\1/2">
          <Player
             autoplay
             loop
@@ -49,8 +47,6 @@ const Services = () => {
           />
          </div>
          </div>
-        </div>
-        </div>
       </div>
     </section>
   )
