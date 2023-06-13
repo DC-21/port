@@ -7,7 +7,7 @@ const Services = () => {
       <div className="flex flex-col w-full">
         <div className="flex flex-col                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ">
         <div className="w-full justify-between">
-          <div className="flex justify-between w-full">
+          <div className="md:flex md:flex-row flex-col items-center text-center justify-between w-full" style={{ backgroundColor: '#fafafa'}}>
           <div className="w-1/2 text-center">
           <p>Junior Web Developer</p>
          </div>
