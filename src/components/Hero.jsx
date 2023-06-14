@@ -1,6 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
-import me from '../images/own.png'
+import me from '../images/owncrop.png'
 
 
 const Hero = () => {
@@ -44,8 +44,8 @@ const Hero = () => {
             </div>
         </div>
         <div className="flex items-center justify-center w-full mt-20">
-  <div className="w-1/2">
-    <img src={me} className="mx-auto rounded-md object-center object-cover w-100 h-120" />
+  <div className="w-1/2 rounded-full bg-[#2d177d] hover:bg-white rotate-6 hover:rotate-0 transition-all duration-500 hover:-translate-y-4 overflow-hidden items-center justify-center p-8 hover:shadow-2xl shadow-xl">
+    <img src={me} className="mx-auto rounded-full p-1 object-center object-cover w-full" />
   </div>
 </div>
 
