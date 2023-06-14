@@ -38,9 +38,9 @@ const Services = () => {
             </div>
           </div>
           <div className="w-full md:flex md:flex-row flex-col gap-10 items-center justify-between text-center h-70" >
-           <div className="text-center align-middle">
-            <p className="text-center md:px-40 font-bold md:text-2xl text-xl" style={{ color: '#2d177d'}} >Chatbot Development</p>
-            <p className="text-center md:px-40 text-l pt-6" style={{ color: '#2d177d'}}>Chatbot development for Websites with guided integration.</p>
+           <div className="md:text-left text-center align-middle">
+            <p className="md:text-left text-center md:px-40 font-bold md:text-2xl text-xl" style={{ color: '#2d177d'}} >Chatbot Development</p>
+            <p className="md:text-left text-center md:px-40 text-l pt-6" style={{ color: '#2d177d'}}>Chatbot development for Websites with guided integration.</p>
            </div>
            <div className="">
              <Player
