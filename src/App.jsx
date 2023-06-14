@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Services from './components/Services'
 import Portfolio from './components/Portfolio'
+import Test from './components/Test'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Hero/>
     <Services/>
     <Portfolio/>
+    <Test/>
     </>
   )
 }

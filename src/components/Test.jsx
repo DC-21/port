@@ -1,11 +1,11 @@
 import React from 'react';
-import WebsiteSlider from './WebsiteSlider';
+import Slide from './Slide';
 
 const App = () => {
   return (
-    <div>
+    <div className="h-screen bg-indigo-400">
       {/* Other components */}
-      <WebsiteSlider />
+      <Slide />
       {/* Other components */}
     </div>
   );
