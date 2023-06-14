@@ -29,7 +29,7 @@ const Hero = () => {
               <p className=" w-full text-center items-center md:text-left pt-4  md:text-md text-large font-lg py-0" style={{ color: 'linear-gradient(to right, #fafafa, #2d177d)' }}>Am a freelancer web developer with a passion for cybersecurity and AI chatbot Development.</p>
             </div>
             <div className="flex gap-4 font-bold pt-4 text-2xl">
-            <BsGithub/>
+            <BsGithub className="hover:bg-[#2d177d] rotate-6 hover:rotate-0 transition-all duration-500 hover:-translate-y-2 overflow-hidden items-center justify-center"/>
             <BsWhatsapp/>
             <FaFacebookMessenger/>
             </div>
