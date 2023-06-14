@@ -1,6 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
-import own from '../images/own.png'
+import me from '../images/me.jpeg'
 
 
 const Hero = () => {
@@ -33,7 +33,7 @@ const Hero = () => {
         </div>
         <div className="flex items-center justify-center w-full mt-20">
   <div className="w-1/2">
-    <img src={own} className="mx-auto object-center object-cover w-80 h-auto" />
+    <img src={me} className="mx-auto rounded-md object-center object-cover w-100 h-120" />
   </div>
 </div>
 
