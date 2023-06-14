@@ -9,8 +9,8 @@ const Services = () => {
         <div className="flex flex-col h-full w-full pt-4">
           <div className="md:flex md:flex-row flex-col h-100% items-center justify-between w-full">
           <div className="md:text-left text-center align-middle">
-          <p className="text-center md:px-40 font-bold md:text-2xl text-xl" style={{ color: '#2d177d'}}>Web Development</p>
-          <p className="text-center md:px-40 text-l pt-6" style={{ color: '#2d177d'}}>Full stack Web Development with React Js and Node Js.</p>
+          <p className="md:text-left text-center md:px-40 font-bold md:text-2xl text-xl" style={{ color: '#2d177d'}}>Web Development</p>
+          <p className="md:text-left text-center md:px-40 text-l pt-6" style={{ color: '#2d177d'}}>Full stack Web Development with React Js and Node Js.</p>
          </div>
             <div className="">
               <Player
@@ -23,9 +23,9 @@ const Services = () => {
             </div>
           </div>
           <div className="w-full md:flex md:flex-row flex-col h-70 items-center text-center justify-between">
-            <div className="text-center align-middle">
-              <p className="text-center md:px-40 font-bold md:text-2xl pt-4 text-xl" style={{ color: '#2d177d'}} >Web PenTesting</p>
-              <p className="text-center md:px-40 text-l md:pt-6 pt-4" style={{ color: '#2d177d'}}>Website and WebApp penetration testing to enhance security levels.</p>
+            <div className="md:text-left text-center align-middle">
+              <p className="md:text-left text-center md:px-40 font-bold md:text-2xl pt-4 text-xl" style={{ color: '#2d177d'}} >Web PenTesting</p>
+              <p className="md:text-left text-center md:px-40 text-l md:pt-6 pt-4" style={{ color: '#2d177d'}}>Website and WebApp penetration testing to enhance security levels.</p>
             </div>
             <div className="">
               <Player
