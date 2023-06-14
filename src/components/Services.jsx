@@ -8,7 +8,7 @@ const Services = () => {
         <p className="text-center pt-6 md:text-3xl text-2xl underline font-bold text-blue-800">My Services</p>
         <div className="flex flex-col h-full w-full pt-4">
           <div className="md:flex md:flex-row flex-col h-100% items-center justify-between w-full">
-          <div className="text-center align-middle">
+          <div className="md:text-left text-center align-middle">
           <p className="text-center md:px-40 font-bold md:text-2xl text-xl" style={{ color: '#2d177d'}}>Web Development</p>
           <p className="text-center md:px-40 text-l pt-6" style={{ color: '#2d177d'}}>Full stack Web Development with React Js and Node Js.</p>
          </div>
