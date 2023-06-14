@@ -1,87 +1,90 @@
-<section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto flex flex-wrap">
-    <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-      <img alt="feature" class="object-cover object-center h-full w-full" src="https://dummyimage.com/460x500">
+To embed another website and enable sliding functionality within a section in a React application, you can use an iframe element along with a carousel or slider component. Here's an example of how you can achieve this:
+
+    Install dependencies: If you haven't already, install a carousel or slider library for React. For this example, we'll use the react-slick library.
+
+bash
+
+npm install react-slick slick-carousel
+
+    Import dependencies: In the component file where you want to add the embedded website and sliding functionality, import the necessary dependencies.
+
+jsx
+
+import React from 'react';
+import Slider from 'react-slick';
+
+    Create the component: Set up a component to contain the embedded website and slider.
+
+jsx
+
+const WebsiteSlider = () => {
+  // Define the websites to be embedded
+  const websites = [
+    'https://example1.com',
+    'https://example2.com',
+    'https://example3.com',
+  ];
+
+  // Configure the settings for the slider
+  const sliderSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
+  return (
+    <Slider {...sliderSettings}>
+      {websites.map((website, index) => (
+        <iframe key={index} title={`Website ${index + 1}`} src={website} />
+      ))}
+    </Slider>
+  );
+};
+
+    Style the component: Apply appropriate styles to the component and the iframe elements to control their appearance and size.
+
+jsx
+
+const WebsiteSlider = () => {
+  // ...
+
+  return (
+    <div className="slider-container">
+      <Slider {...sliderSettings}>
+        {websites.map((website, index) => (
+          <iframe
+            key={index}
+            title={`Website ${index + 1}`}
+            src={website}
+            className="website-iframe"
+          />
+        ))}
+      </Slider>
     </div>
-    <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
-      <div class="flex flex-col mb-10 lg:items-start items-center">
-        <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-          </svg>
-        </div>
-        <div class="flex-grow">
-          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
-          <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-          <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </a>
-        </div>
-      </div>
-      <div class="flex flex-col mb-10 lg:items-start items-center">
-        <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-            <circle cx="6" cy="6" r="3"></circle>
-            <circle cx="6" cy="18" r="3"></circle>
-            <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-          </svg>
-        </div>
-        <div class="flex-grow">
-          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">The Catalyzer</h2>
-          <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-          <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </a>
-        </div>
-      </div>
-      <div class="flex flex-col mb-10 lg:items-start items-center">
-        <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-            <circle cx="12" cy="7" r="4"></circle>
-          </svg>
-        </div>
-        <div class="flex-grow">
-          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Neptune</h2>
-          <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-          <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </a>
-        </div>
-      </div>
+  );
+};
+
+    Use the component: Incorporate the WebsiteSlider component within your desired section or page.
+
+jsx
+
+const App = () => {
+  // ...
+
+  return (
+    <div>
+      {/* ... */}
+      <section>
+        {/* ... */}
+        <WebsiteSlider />
+      </section>
+      {/* ... */}
     </div>
-  </div>
-</section>
+  );
+};
 
+    Customize styles: Adjust the styles for the container and iframe as per your requirements. You can use CSS or a CSS-in-JS library like styled-components to define the styles.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img src={own}/>
-        <button className="text-white text-center md:hidden block text-l font-bold bg-blue-400 py-2 px-3 rounded hover:bg-blue-300">Email Me</button>
+With this setup, the embedded websites will be displayed within the slider component, allowing you to slide through the different websites. Adjust the slider settings and customize the styling as needed to achieve the desired look and functionality.

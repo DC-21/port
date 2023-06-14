@@ -20,11 +20,17 @@ const WebsiteSlider = () => {
     };
   
     return (
-      <Slider {...sliderSettings}>
-        {websites.map((website, index) => (
-          <iframe key={index} title={`Website ${index + 1}`} src={website} />
-        ))}
-      </Slider>
-    );
-  };
-  
+        <div className="slider-container">
+          <Slider {...sliderSettings}>
+            {websites.map((website, index) => (
+              <iframe
+                key={index}
+                title={`Website ${index + 1}`}
+                src={website}
+                className="website-iframe"
+              />
+            ))}
+          </Slider>
+        </div>
+      );
+    };
