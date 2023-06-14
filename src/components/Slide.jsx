@@ -1,0 +1,30 @@
+import React from 'react';
+import Slider from 'react-slick';
+
+
+const WebsiteSlider = () => {
+    // Define the websites to be embedded
+    const websites = [
+      'https://example1.com',
+      'https://example2.com',
+      'https://example3.com',
+    ];
+  
+    // Configure the settings for the slider
+    const sliderSettings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+    };
+  
+    return (
+      <Slider {...sliderSettings}>
+        {websites.map((website, index) => (
+          <iframe key={index} title={`Website ${index + 1}`} src={website} />
+        ))}
+      </Slider>
+    );
+  };
+  
