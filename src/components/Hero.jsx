@@ -1,7 +1,6 @@
 import React from 'react'
-import { FaEnvelope } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
-
+import { BsGithub, BsWhatsapp } from 'react-icons/bs';
+import { FaFacebookMessenger } from 'react-icons/fa'
 import { TypeAnimation } from 'react-type-animation'
 import me from '../images/owncrop.png'
 
@@ -27,22 +26,25 @@ const Hero = () => {
                 style={{ color: 'linear-gradient(to right, #fafafa, #2d177d)' }}
                />
               </div>
-              <p className=" w-full text-center items-center md:text-left pt-4 text:sm md:text-md text-large font-lg py-0" style={{ color: 'linear-gradient(to right, #fafafa, #2d177d)' }}>Am a freelancer web developer with a passion for cybersecurity and AI chatbot Development.</p>
+              <p className=" w-full text-center items-center md:text-left pt-4  md:text-md text-large font-lg py-0" style={{ color: 'linear-gradient(to right, #fafafa, #2d177d)' }}>Am a freelancer web developer with a passion for cybersecurity and AI chatbot Development.</p>
             </div>
-            <div></div>
+            <div className="flex gap-4">
+            <BsGithub/>
+            <BsWhatsapp/>
+            <FaFacebookMessenger/>
+            </div>
             <div className="text-center w-full flex mt-4 justify-start">
               <button className="hover:bg-blue-300 text-white text-lg font-bold py-2 px-3 rounded" style={{ backgroundColor: '#2d177d' }}>
-                   Email Me
+              Email Me
               </button>
             </div>
         </div>
         <div className="flex items-center justify-center w-1/2 p-12">
           <div className="w-full rounded-full bg-[#2d177d] hover:bg-white rotate-6 hover:rotate-0 transition-all duration-500 hover:-translate-y-4 overflow-hidden items-center justify-center p-8 hover:shadow-2xl shadow-xl">
-            <img src={me} className="mx-auto rounded-full p-1 object-center object-cover w-full" />
+            <img src={me} className="mx-auto rounded-full p-1 object-center object-cover w-full" alt='me'/>
           </div>
+        </div> 
         </div>
-
-      </div>
     </section>
   )
 }
