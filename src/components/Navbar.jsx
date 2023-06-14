@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { CgCloseR } from 'react-icons/cg';
+import dice from '../images/dice.png'
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -43,7 +44,7 @@ const Navbar = () => {
   return (
     <div className="w-full sticky flex justify-between md:px-8 px-6 text-white md:py-5 py-5" style={{ background: 'linear-gradient(to right, #fafafa, #2d177d)' }}>
       <div>
-        <a className="font-bold text-purple-900" href=''>DiCE</a>
+        <img src={dice} className="h10 w-16" />
       </div>
       <div className="">
         <ul className="justify-center gap-8 md:flex hidden">
