@@ -17,7 +17,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="h-screen w-full" style={containerStyle}  id="home">
+    <section className="h-screen w-full" style={{ background: 'linear-gradient(to right, #fafafa, #2d177d)' }}  id="home">
       <div className="px-6 flex md:flex-row flex-col w-full md:justify-between justify-center">
         <div className="justify-center items-center">
           <div className="md:pt-20 pt-1">

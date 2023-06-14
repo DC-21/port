@@ -18,7 +18,7 @@ const Services = () => {
                 loop
                 src="https://assets9.lottiefiles.com/packages/lf20_bzgbs6lx.json"
                 style={{ maxWidth: '600px', width: '50%', height: '50%' }}
-                className="z-10 hover:-translate-y-4 transition-all object-center justify-center ease-in-out duration-300 cursor-pointer text-center"
+                className="z-10 hover:-translate-y-4 px-10 transition-all object-center justify-center ease-in-out duration-300 cursor-pointer text-center"
              />
             </div>
           </div>
