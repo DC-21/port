@@ -5,9 +5,7 @@ import Slider from 'react-slick';
 const WebsiteSlider = () => {
     // Define the websites to be embedded
     const websites = [
-      'https://example1.com',
-      'https://example2.com',
-      'https://example3.com',
+      'https://ai-chola.netlify.app/'
     ];
   
     // Configure the settings for the slider
