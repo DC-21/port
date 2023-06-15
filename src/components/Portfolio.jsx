@@ -24,11 +24,11 @@ const Portfolio = () => {
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">AI-Web</h2>
                 <p className="leading-relaxed text-base">I built the Ai-Web using React and deployed it using Netlify.</p>
-                <a className="mt-3 text-indigo-500 inline-flex items-center">Check it out
+                <a className="mt-3 text-indigo-500 inline-flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                 </svg>
-
+                  Check it out
                 </a>
               </div>
             </div>
