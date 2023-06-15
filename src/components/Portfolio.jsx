@@ -3,7 +3,7 @@ import Slide from './Slide';
 
 const Portfolio = () => {
   return (
-    <section class="text-gray-600 body-font">
+    <section class="text-gray-600 body-font min-h-screen  w-full rounded">
       <div class="container px-5 py-24 mx-auto flex flex-wrap w-full h-screen">
   <div className="container px-5 py-24 mx-auto flex flex-wrap">
     <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
