@@ -56,7 +56,7 @@ const Portfolio = () => {
               </div>
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">MyAi</h2>
-                <p className="leading-relaxed text-base">MyAi is next-generation Reminder based Ai that is going to run on mobile phones. Its under development now.</p>
+                <p className="leading-relaxed text-base text-center">MyAi is next-generation Reminder based Ai that is going to run on mobile phones. Its under development now.</p>
               </div>
             </div>
           </div>
