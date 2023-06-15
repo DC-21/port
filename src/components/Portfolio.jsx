@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <section className="text-gray-600 body-font min-h-screen w-full rounded">
       <div className="container px-5 py-24 mx-auto flex flex-col w-full h-screen">
-        <div className="bg-black px-4 py-4 flex justify-center">
+        <div className="bg-black px-4 py-4 flex justify-center rounded">
           <h1 className="text-white text-2xl font-bold">My Portfolio</h1>
         </div>
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
