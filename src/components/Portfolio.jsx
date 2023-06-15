@@ -4,6 +4,7 @@ import Slide from './Slide';
 const Portfolio = () => {
   return (
     <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto flex flex-wrap w-full h-screen">
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
     <div className="h-screen bg-indigo-400">
@@ -52,10 +53,10 @@ const Portfolio = () => {
             <circle cx="12" cy="7" r="4"></circle>
           </svg>
         </div>
-        <div class="flex-grow">
-          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Neptune</h2>
-          <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-          <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+        <div className="flex-grow">
+          <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Neptune</h2>
+          <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+          <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
@@ -63,6 +64,7 @@ const Portfolio = () => {
         </div>
       </div>
     </div>
+  </div>
   </div>
 </section>
   );
