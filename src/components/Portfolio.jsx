@@ -4,11 +4,11 @@ import Slide from './Slide';
 const Portfolio = () => {
   return (
     <section className="text-gray-600 body-font min-h-screen w-full rounded">
-      <div className="container py-4 mx-auto flex flex-col w-full h-screen">
-        <div className="px-4 py-4 flex justify-center rounded" style={{ background: 'linear-gradient(to right, #fafafa, #2d177d)' }}>
-          <h1 className="text-white text-2xl font-bold">My Projects</h1>
+      <div className="container py-8 mx-auto flex flex-col w-full h-screen">
+        <div className="px-4 py-4 flex justify-center rounded" style={{ background: 'linear-gradient(to right, #c562b3, #a1d0f2)' }}>
+          <h1 className="text-indigo-700 text-2xl font-bold">My Projects</h1>
         </div>
-        <div className="container px-5 py-24 mx-auto flex flex-wrap">
+        <div className="container px-5 py-8 mx-auto flex flex-wrap rounded">
           <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
             <div className="h-screen bg-indigo-400">
               <Slide className="w-full h-full" />
