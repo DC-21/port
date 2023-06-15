@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 const Slide = () => {
   // Define the websites to be embedded
   const websites = [
-    'https://tailblocks.cc/'
+    'https://ai-chola.netlify.app/'
   ];
 
   // Configure the settings for the slider
