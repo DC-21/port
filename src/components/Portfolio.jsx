@@ -14,7 +14,7 @@ const Portfolio = () => {
               <Slide className="w-full h-full" />
             </div>
           </div>
-          <div className="flex flex-col flex-wrap h-screen lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center" style={{ background: 'linear-gradient(to right, #c562b3, #a1d0f2)' }}>
+          <div className="flex flex-col flex-wrap justify-between rounded h-screen lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center" style={{ background: 'linear-gradient(to right, #c562b3, #a1d0f2)' }}>
             <div className="flex flex-col mb-10 lg:items-start items-center">
               <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
