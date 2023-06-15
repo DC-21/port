@@ -1,5 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const Slide = () => {
   // Define the websites to be embedded
@@ -17,17 +19,19 @@ const Slide = () => {
   };
 
   return (
-    <div className="slider-container" style={{ width: '100%', height: '100%', margin: '0 auto' }}>
-      <Slider {...sliderSettings}>
-        {websites.map((website, index) => (
-          <iframe
-            key={index}
-            title={`Website ${index + 1}`}
-            src={website}
-            className="website-iframe"
-          />
-        ))}
-      </Slider>
+    <div className="flex justify-center items-center h-screen">
+      <div className="w-full">
+        <Slider {...sliderSettings}>
+          {websites.map((website, index) => (
+            <iframe
+              key={index}
+              title={`Website ${index + 1}`}
+              src={website}
+              className="w-full h-screen"
+            />
+          ))}
+        </Slider>
+      </div>
     </div>
   );
 };
