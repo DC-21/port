@@ -17,7 +17,7 @@ const Slide = () => {
   };
 
   return (
-    <div className="slider-container">
+    <div className="slider-container" style={{ width: '100%', height: '100%', margin: '0 auto' }}>
       <Slider {...sliderSettings}>
         {websites.map((website, index) => (
           <iframe
