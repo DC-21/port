@@ -9,12 +9,12 @@ const Portfolio = () => {
           <h1 className="text-indigo-700 text-2xl font-bold">My Projects</h1>
         </div>
         <div className="container px-5 py-8 mx-auto flex flex-wrap rounded" >
-          <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded overflow-hidden min-h-screen">
+          <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded overflow-hidden min-h-screen md:pr-4">
             <div className="bg-indigo-400 rounded-md">
               <Slide className="w-full h-full" />
             </div>
           </div>
-          <div className="flex flex-col flex-wrap justify-between rounded h-screen lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center" style={{ background: 'linear-gradient(to right, #c562b3, #a1d0f2)' }}>
+          <div className="flex flex-col flex-wrap justify-between rounded h-screen lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center md:pl-4" style={{ background: 'linear-gradient(to right, #c562b3, #a1d0f2)' }}>
             <div className="flex flex-col mb-10 lg:items-start items-center">
               <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
